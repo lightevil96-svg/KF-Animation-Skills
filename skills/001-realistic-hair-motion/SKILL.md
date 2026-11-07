@@ -73,10 +73,11 @@ The first test uses a chibi illustration with red short hair and long blue hair.
 
 - Source artwork: 1536 × 1152, 4:3.
 - Project target: KeyFlow 1.5.6, 30 FPS, 4:3, 1080p.
-- Layers: clean plate, red hair cutout, blue hair cutout.
+- Layers: clean plate, red hair cutout, and lower blue-hair-tail cutout.
 - Animation: transform-based rotation and position keyframes with Bezier interpolation.
-- Red hair: approximately ±1.35° around a crown anchor.
-- Blue hair: approximately ±3° around a scalp anchor.
+- Red hair: approximately ±1.5° around a crown anchor; eye/ear zones are held stationary.
+- Blue hair: approximately ±3.2° around the lower-tail root; upper hair, butterfly, flowers, and pearl ornaments remain stationary.
+- Face, eyes, hands, clothes, body, and background are not assigned to moving layers.
 - Duration: 5 seconds.
 
 ### Known limitation
